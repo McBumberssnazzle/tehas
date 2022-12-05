@@ -1,0 +1,23 @@
+@import "Main.css";
+
+
+
+
+button {
+    border-radius: 8px;
+    text-align: left;
+    text-overline-color: black;
+    text-line-through-color: black;
+    -webkit-text-fill-color: black;
+    font-size: 12px;
+    padding: 12px;
+    width: 100px;
+    height: 20px;
+    transition: all 5s, background-color 2s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: crimson;
+}

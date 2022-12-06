@@ -1,0 +1,35 @@
+# Veebilehe-seminar
+
+== Tiim
+Markus Männil, Grigory Zenov
+
+== T3h@$ 
+
+T3h@$ on veebileht mis on olemuselt Digital Dark Synthwave/Cyberpunk, Horror/Sci-Fi muusika infoleht.
+
+== Peamised funktsioonid: 
+
+Samplite kuulamine ja alla tõmbamine
+
+Konserdite ajakava kuvamine koos linkidega nendele eventidele
+
+== Veebilehe osad
+*Main.html:* Pealeht kus on nupud millega saab navigeerida teistele tabidele
+
+*Calender.html:* Leht kus kuvatakse tulevad üritused Tartus
+
+*Sample.html:* Leht kus saab kuulata sampleid ja neid vajadusel alla tõmmata
+
+*Main.css:* Peamine css fail mida refervad kõik teised css failid
+
+*Calender.css:* Css fail mis on Salender.html eripärade jaoks
+
+*Sample.css:* Css fail mis on Sample.html eripärade jaoks
+
+*Sample.js:* JavaScript fail, et saaks Sample.html-is mängida ja allalaadida muusikat
+
+
+
+== Projekti panustamine
+
+Projekti panustasid võrdselt Markus ja Grigory. Artjom Rattikust pole midagi kuulnud.

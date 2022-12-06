@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/Sample.css">
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+    <pre> 
+        █▀ █▀█ █░█ █░█ █▀▀ █▄░█ █ █▀█ █▀   █▀█ █▀▀
+        ▄█ █▄█ █▄█ ▀▄▀ ██▄ █░▀█ █ █▀▄ ▄█   █▄█ █▀░
+        
+        █▀ █▀█ █░█ █▄░█ █▀▄ ░   █▄▄ ▄▀█ █▀▄ █▀▀ █▀▀ █▀   █▀█ █▀▀
+        ▄█ █▄█ █▄█ █░▀█ █▄▀ █   █▄█ █▀█ █▄▀ █▄█ ██▄ ▄█   █▄█ █▀░
+        
+        ▄▀█ █░░ █░░ █▀▀ █▀▀ █ ▄▀█ █▄░█ █▀▀ █▀▀   ▀█▀ █▀█
+        █▀█ █▄▄ █▄▄ ██▄ █▄█ █ █▀█ █░▀█ █▄▄ ██▄   ░█░ █▄█
+        
+        ▀█▀ █░█ █▀▀   ▄▀█ █░█ █▀▄ █ ▀█▀ █▀█ █▀█ █▄█
+        ░█░ █▀█ ██▄   █▀█ █▄█ █▄▀ █ ░█░ █▄█ █▀▄ ░█░
+        
+        ▄▀█ █▀█ ▀█▀ █▀ ░   ▀█▀ █░█ █▀▀ █▀ █▀▀
+        █▀█ █▀▄ ░█░ ▄█ █   ░█░ █▀█ ██▄ ▄█ ██▄
+        
+        ▀█▀ █▀█ █▄▀ █▀▀ █▄░█ █▀   █▀█ █▀▀
+        ░█░ █▄█ █░█ ██▄ █░▀█ ▄█   █▄█ █▀░
+        
+        █▀▄ █▀▀ █░█ █▀█ ▀█▀ █ █▀█ █▄░█   ▀█▀ █▀█   ▀█▀ █░█ █▀▀
+        █▄▀ ██▄ ▀▄▀ █▄█ ░█░ █ █▄█ █░▀█   ░█░ █▄█   ░█░ █▀█ ██▄
+        
+        █▀▄▀█ █░█ █▀ █ █▀▀ ▄▀█ █░░   █▀▀ █▄░█ █▀ █▀▀ █▀▄▀█ █▄▄ █░░ █▀▀
+        █░▀░█ █▄█ ▄█ █ █▄▄ █▀█ █▄▄   ██▄ █░▀█ ▄█ ██▄ █░▀░█ █▄█ █▄▄ ██▄
+        
+        █▀█ █░░ █▀▀ ▄▀█ █▀ █▀▀   ▀█▀ █░█ █▀▀   █▀▀ █▄█ █▀▀
+        █▀▀ █▄▄ ██▄ █▀█ ▄█ ██▄   ░█░ █▀█ ██▄   ██▄ ░█░ ██▄
+        
+        ▄▀█ █▄░█ █▀▄   █▀█ █▀█ █▀█ █▀▀ █░░ ▄▀█ █ █▀▄▀█   ▀█▀ █░█ █▀▀
+        █▀█ █░▀█ █▄▀   █▀▀ █▀▄ █▄█ █▄▄ █▄▄ █▀█ █ █░▀░█   ░█░ █▀█ ██▄
+        
+        ▀█▀ ▄▀█ █▀ ▀█▀ █▀▀   █▀█ █▀▀   ▀█▀ █░█ █▀▀ █ █▀█
+        ░█░ █▀█ ▄█ ░█░ ██▄   █▄█ █▀░   ░█░ █▀█ ██▄ █ █▀▄
+        
+        █▄▄ █▀▀ ▄▀█ █▀█ █▀▀ █▀█ ░
+        █▄█ ██▄ █▀█ █▀▄ ██▄ █▀▄ ▄
+    </pre>
+    
+    <style>
+        .product-box {
+          background-color: rgb(27, 0, 59);
+          padding: 20px;
+        }
+    
+        .product-grid {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          grid-gap: 20px;
+        }
+
+        .product-button {
+          display: inline-block;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+        }
+
+        .product-info {
+          display: none;
+        }
+
+        .product-button:hover .product-info {
+          display: block;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="product-box">
+        <div class="product-grid">
+          <div class="product">
+            <button class="product-button">
+              <img src="product-image.jpg" alt="Product Image">
+              <div class="product-info">
+                <h2>Product Name</h2>
+                <p>Product Description</p>
+                <p>Price: $XX.XX</p>
+            
+              </div>
+            </button>
+          </div>
+          <div class="product">
+            <button class="product-button">
+              <img src="product-image.jpg" alt="Product Image">
+              <div class="product-info">
+                <h2>Product Name</h2>
+                <p>Product Description</p>
+                <p>Price: $XX.XX</p>
+            
+              </div>
+            </button>
+          </div>
+          <div class="product">
+            <button class="product-button">
+              <img src="product-image.jpg" alt="Product Image">
+              <div class="product-info">
+                <h2>Product Name</h2>
+                <p>Product Description</p>
+                <p>Price: $XX.XX</p>
+            
+              </div>
+            </button>
+          </div>
+          <div class="product">
+            <button class="product-button">
+              <img src="product-image.jpg" alt="Product Image">
+              <div class="product-info">
+                <h2>Product Name</h2>
+                <p>Product Description</p>
+                <p>Price: $XX.XX</p>
+            
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+<div style="text-align:center">
+    <pre>
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWKOd:;;;:dO0NMMMMMMMMMMMMMMWMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMNkll:.         .;lkKNWMMNXOolllxKNWMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMNo.                 .,ldd:..     .,oXWMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMNo.                                  'dKWMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMWk'                                    cKWMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMWk'                            '::'    cXWMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMWWMXd;'.          .'',.       'dXW0,    .lXMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMWWN0dc'....,lxKNNNKo'..,lxKWMMx.     ,KMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWXKKKKXWMMMWWMWXKKNWWMMMMx.     ,0MMMMMMMM
+MMMMMMMMMWWMMMMMMMMMMMMMWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMx.     ,0MMMMMMMM
+MMMMMMMMXdx0XWMMMMMMMMMWOdOKNMMMMMMMMWMMKdx0XWMMMMMMMMMMMMx.     ,0MMMMMMMM
+MMMMMMMM0, .'cd0NWMMMMMWo...:oOXNMMMMMMMO' .,lxKNWMMMMMMMMx.     ,0MMMMMMMM
+MMMMMMMM0,     .'cx0NWMWo     ..;okKWWWMO.     .'lx0WWMMMMx.     ,0MMMMMMMM
+MMMMMMMMK,         .,:xO:          .;:oOd.         .;ck0XWx.     ,0MMMMMMMM
+MMMMMMMMK,            ..               ..              .,c,      ,0MMMMMMMM
+MMMMMMMM0,    .;;;;;.        .,;;::'          '::;;;.            ,0MMMMMMMM
+MMMMMMMM0,    lk:,ck:        'xo,,dd.        .ox;,ck;            ,0MMMMMMMM
+MMMMMMMMK,    lOc:lkc        ,ko::xd.        .okc:ok;            ,0MMMMMMMM
+MMMMMMMMK,    lx;':kc        ,xl,,dd.        .ox,'ck;            ,0MMMMMMMM
+MMMMMMMM0,    ,l::cl'        .cc::l:          ;l::cc.            ,0MMMMMMMM
+MMMMMMMM0,    'c:::c.        .:c::c;          ,c::c:.            ,0MMMMMMMM
+MMMMMMMM0,    lk;':kc        'xl',dd.        .ox,'cx;            ,0MMMMMMMM
+MMMMMMMM0,    lkc:lOc        ,kd::kx.        .okc:ok;            ,0MMMMMMMM
+MMMMMMMMK,    lx;,:kc        ,kl',dd.        .ox,'ck;            ,0MMMMMMMM
+MMMMMMMMK,    .:::::.        .;:;;:,          ':::::.            ,0MMMMMMMM
+MMMMMMMMK,                                                       ,0MMMMMMMM
+MMMMMMMMK,                                                       ,0MMMMMMMM
+MMMMMMMMXo;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;oXMMMMMMMM
+MMMMMMMMMWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+</pre>
+  </div> 
+
+<div style="position: fixed; bottom: 0; left: 0;">
+    <p style="text-align: center;">
+        ░██████╗██╗░░██╗░█████╗░██████╗░
+        ██╔════╝██║░░██║██╔══██╗██╔══██╗
+        ╚█████╗░███████║██║░░██║██████╔╝
+        ░╚═══██╗██╔══██║██║░░██║██╔═══╝░
+        ██████╔╝██║░░██║╚█████╔╝██║░░░░░
+        ╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░░░░
+
+    
+    </p>
+</div>
+</body>
+</html>

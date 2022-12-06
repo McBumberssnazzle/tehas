@@ -1,14 +1,19 @@
 @import "Main.css";
 
 
-
-
+body {
+    background-color: rgb(39, 0, 87);
+    background-image: url("/assets/rott.png");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
 button {
     border-radius: 8px;
     text-align: left;
-    text-overline-color: black;
-    text-line-through-color: black;
-    -webkit-text-fill-color: black;
+    text-overline-color: rgb(255, 254, 254);
+    text-line-through-color: rgb(254, 254, 254);
+    -webkit-text-fill-color: rgb(255, 255, 255);
     font-size: 12px;
     padding: 12px;
     width: 100px;

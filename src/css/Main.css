@@ -1,40 +1,51 @@
 h1 {
     color: whitesmoke;
-    font-size: 88px;
-    text-align: center;
+    font-size: 76px;
+    text-align: right;
     text-shadow: 10px 5px 15px crimson;
     transition: all 2s;
-}
-
-h2 {
+  }
+  pre{
+    color: whitesmoke;
+    font-size: 10px;
+    text-align: match-parent;
+    text-shadow: 2px 2px 15px ghostwhite;
+    transition: all 5s;
+  }
+  h2 {
     color: whitesmoke;
     font-size: 40px;
     text-align: center;
     text-shadow: 2px 2px 15px ghostwhite;
     transition: all 5s;
-}
-
-body {
-    background-color: black;
-}
-
-tekst {
+  }
+  
+  body {
+    background-color: rgb(39, 0, 87);
+    background-image: url("/assets/rott.png");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+      
+  }
+  
+  tekst {
     color: whitesmoke;
     font-size: 20px;
     transition: all 5s;
     padding: 15px;
-}
-button_tekst {
+  }
+  button_tekst {
     color: whitesmoke;
-}
-
-button {
+  }
+  
+  button {
     border-radius: 8px;
     background-image: url("/assets/rott.png");
     background-size: cover;
-    color: #FFFFFF;
+    color: rgb(39, 0, 87);
     text-align: center;
-    text-overline-color: black;
+    text-overline-color: whitesmoke;
     font-size: 12px;
     padding: 12px;
     width: 100px;
@@ -42,7 +53,8 @@ button {
     transition: all 7s,background-color 2s;
     cursor: pointer;
     margin: 5px;
-}
-button:hover{
+  }
+  button:hover{
     background-color: crimson;
-}
+  }
+  

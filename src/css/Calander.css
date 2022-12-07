@@ -1,6 +1,10 @@
 @import "Main.css";
 
+body {
+    background-color: rgb(39, 0, 87);
+    background-image: url("/assets/background.png");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
 
-li{
-    color: whitesmoke;
 }

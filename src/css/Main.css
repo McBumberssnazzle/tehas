@@ -22,7 +22,7 @@ h1 {
   
   body {
     background-color: rgb(39, 0, 87);
-    background-image: url("/assets/rott.png");
+    background-image: url("/assets/background.png");
     background-position: center bottom;
     background-repeat: repeat-x;
     background-attachment: fixed;
@@ -41,7 +41,6 @@ h1 {
   
   button {
     border-radius: 8px;
-    background-image: url("/assets/background.png");
     background-size: cover;
     color: rgb(39, 0, 87);
     text-align: center;

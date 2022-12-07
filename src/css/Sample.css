@@ -11,8 +11,6 @@ body {
 button {
     border-radius: 8px;
     text-align: left;
-    text-overline-color: rgb(255, 254, 254);
-    text-line-through-color: rgb(254, 254, 254);
     -webkit-text-fill-color: rgb(255, 255, 255);
     font-size: 12px;
     padding: 12px;

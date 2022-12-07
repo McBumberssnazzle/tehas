@@ -1,1 +1,9 @@
 @import "Main.css";
+
+body {
+    background-color: rgb(35, 32, 51);
+    background-image: url("/assets/background.png");
+    background-position: bottom 10px right;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    }

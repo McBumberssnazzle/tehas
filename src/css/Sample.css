@@ -8,6 +8,7 @@ body {
     background-repeat: repeat-x;
     background-attachment: scroll;
 }
+
 button {
     border-radius: 8px;
     text-align: left;
@@ -21,6 +22,51 @@ button {
     margin: 5px;
 }
 
-button:hover {
-    background-color: crimson;
+.lp-box {
+    width: 410px;
+    height: 420px;
+    background-color: rgb(27, 0, 59);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lp-picture {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.lp-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lp-picture button {
+    position: absolute;
+    z-index: 1;
+}
+
+.lp-picture button.play-button {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lp-picture button.download-button {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+play_text{
+    color: black;
 }
